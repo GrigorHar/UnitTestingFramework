@@ -1,0 +1,16 @@
+{
+  "name": "calc.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "a simple calculator testing app",
+  "devDependencies": {
+    "mocha": "^9.1.2",
+    "mochawesome": "^6.2.2"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-28T15:40:13.095Z",
+    "end": "2021-09-28T15:40:13.126Z",
+    "duration": 31,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c0f40484-fd11-4b79-93c3-b09b962522f8",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "calculate the sum of 1 and 3",
+          "fullTitle": "calculate the sum of 1 and 3",
+          "timedOut": false,
+          "duration": 1,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "assert.equal(operations.add(1,3),4)",
+          "err": {},
+          "uuid": "d9329886-7634-4e03-9100-a8660d48c013",
+          "parentUUID": "c0f40484-fd11-4b79-93c3-b09b962522f8",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "calculate the multiply of 4 and 20 ",
+          "fullTitle": "calculate the multiply of 4 and 20 ",
+          "timedOut": false,
+          "duration": 0,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "assert.equal(operations.multiply(4,20),80)",
+          "err": {},
+          "uuid": "7bfcea80-fab5-4bab-8bb4-09a5d01e0205",
+          "parentUUID": "c0f40484-fd11-4b79-93c3-b09b962522f8",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "except a error when using string insted of a number",
+          "fullTitle": "except a error when using string insted of a number",
+          "timedOut": false,
+          "duration": 0,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "assert.equal(operations.validateNumbers('string', 4), false)",
+          "err": {},
+          "uuid": "08cf0d86-b3f3-4363-bb90-c9b723248074",
+          "parentUUID": "c0f40484-fd11-4b79-93c3-b09b962522f8",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "except a error when using two string insted of a number",
+          "fullTitle": "except a error when using two string insted of a number",
+          "timedOut": false,
+          "duration": 0,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "assert.equal(operations.validateNumbers('string', \"string\"), false)",
+          "err": {},
+          "uuid": "cbed267d-b78f-44c9-a173-e86a62385225",
+          "parentUUID": "c0f40484-fd11-4b79-93c3-b09b962522f8",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "succesfully run then using two numbers",
+          "fullTitle": "succesfully run then using two numbers",
+          "timedOut": false,
+          "duration": 0,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "assert.equal(operations.validateNumbers(5, 4), true)",
+          "err": {},
+          "uuid": "3cc83775-ba42-4a8f-9075-1269dfdf194d",
+          "parentUUID": "c0f40484-fd11-4b79-93c3-b09b962522f8",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "d9329886-7634-4e03-9100-a8660d48c013",
+        "7bfcea80-fab5-4bab-8bb4-09a5d01e0205",
+        "08cf0d86-b3f3-4363-bb90-c9b723248074",
+        "cbed267d-b78f-44c9-a173-e86a62385225",
+        "3cc83775-ba42-4a8f-9075-1269dfdf194d"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 1,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.1.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
